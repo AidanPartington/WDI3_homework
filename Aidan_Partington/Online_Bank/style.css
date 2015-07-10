@@ -1,0 +1,115 @@
+body {
+  float: left;
+  max-width: 900px;
+  margin: 0px;
+  background: url(http://3.bp.blogspot.com/-ls-BFqv9VbA/ULEK47Qre-I/AAAAAAAAABQ/ZpZ_EkcrquI/s1600/despicable-me-bank-of-evil.jpg) no-repeat;
+  background-size: cover;
+}
+
+#logo_pig {
+  float: left;
+  margin: 10px 10px;
+  width: 80px;
+  height: 80px;
+  border: grey solid;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+#savings {
+  float: left;
+  
+  color: white;
+  background-color: rgba(102,255,255,0.5);
+  text-align: center;
+
+  width: 230px;
+  height: 80px;
+  
+  z-index: 10;
+  
+  border: linen solid;
+  border-radius: 20px;
+  border-width: 2px;
+
+  position: fixed;
+  top: 150px;
+  left: 90px;
+}
+    #SAVINGS_TITLE {
+      margin: 5px 0px 0px 0px;
+    }
+    #Balance_Savings_Label{
+      display: inline-block;
+      width: 20px;
+      margin: 5px 35px 0px 0px;
+      padding: 0px;
+    }
+    #Balance_Savings_Amount{
+      display: inline-block;
+      width: 20px;
+      margin: 5px 0px 10px 0px;
+      padding: 0px;
+    }
+
+    #savings__Withdrawal_Label {
+      margin: 0px;
+      font-size: 0.75em;}
+    #savings_Withdrawal {
+      margin: 0px 3px 0px 0px;
+      width: 40px;
+    }
+    #savings_Deposit_Label {font-size: 0.75em;}
+    #savings_Deposit {
+      margin: 0px 0px 0px 0px;
+      width: 40px;
+    }
+
+#checking {
+  float: left;
+  
+  color: white;
+  background-color: rgba(102,255,255,0.5);
+  text-align: center;
+
+  width: 230px;
+  height: 80px;
+  
+  z-index: 10;
+  
+  border: linen solid;
+  border-radius: 20px;
+  border-width: 2px;
+
+  position: fixed;
+  top: 150px;
+  left: 330px;
+}
+    #CHECKING_TITLE {
+      margin: 5px 0px 0px 0px;
+    }
+    #Balance_Checking_Label{
+      display: inline-block;
+      width: 20px;
+      margin: 5px 35px 0px 0px;
+      padding: 0px;
+    }
+    #Balance_Checking_Amount{
+      display: inline-block;
+      width: 20px;
+      margin: 5px 0px 10px 0px;
+      padding: 0px;
+    }
+
+    #checking__Withdrawal_Label {
+      margin: 0px;
+      font-size: 0.75em;}
+    #checking_Withdrawal {
+      margin: 0px 0px 0px 0px;
+      width: 40px;
+    }
+    #checking_Deposit_Label {font-size: 0.75em;}
+    #checking_Deposit {
+      margin: 0px 0px 0px 0px;
+      width: 40px;
+    }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="online_Bank.js"></script>
+</head>
+
+<body>
+
+  <div class="rectangles" id="logo">
+    <img id="logo_pig" src="http://previews.123rf.com/images/tigra62/tigra621202/tigra62120200009/12353607-evil-greedy-black-piggy-bank-Stock-Vector.jpg" alt="">
+  </div>  
+
+  <div class="rectangles" id="savings">
+    <p id="SAVINGS_TITLE">SAVINGS</p>
+    <div id="Balance_Savings">
+      <p id="Balance_Savings_Label">Balance:</p>
+      <p id="Balance_Savings_Amount">$1</p>
+    </div>
+    <label for="savings_Withdrawal" id="savings__Withdrawal_Label">Withdraw:</label>
+    <input type="number" name="savings_Withdrawal" id="savings_Withdrawal" placeholder="$">
+    <label for="savings_Deposit" id="savings_Deposit_Label">Deposit:</label>
+    <input type="number" name="savings_Deposit" id="savings_Deposit" placeholder="$">
+  </div>  
+
+  <div class="rectangles" id="checking">
+    <p id="CHECKING_TITLE">CHECKING</p>
+    <div id="Balance_Checking">
+      <p id="Balance_Checking_Label">Balance:</p>
+      <p id="Balance_Checking_Amount">$2</p>
+    </div>
+    <label for="checking_Withdrawal" id="checking__Withdrawal_Label">Withdraw:</label>
+    <input type="number" name="checking_Withdrawal" id="checking_Withdrawal" placeholder="$">
+    <label for="checking_Deposit" id="checking_Deposit_Label">Deposit:</label>
+    <input type="number" name="checking_Deposit" id="checking_Deposit" placeholder="$">
+  </div> 
+
+  <button>Transfer</button>
+
+</body>
+
+</html>

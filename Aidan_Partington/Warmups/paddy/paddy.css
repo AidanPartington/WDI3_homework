@@ -1,0 +1,8 @@
+body {
+  background-color: green;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}

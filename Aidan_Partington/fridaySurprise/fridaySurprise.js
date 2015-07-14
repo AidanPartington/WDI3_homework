@@ -5,19 +5,36 @@ var hello = function(elem) {
 }
 
 var myForEach = function(sports, callback) {
-  for(i=0; i<sports.length; i++) {
+  for(var i=0; i<sports.length; i++) {
     var elem = sports[i]
-    callback(elem)
+    hello(elem)
   }
 }
 
 myForEach(sports,hello);
 
 
-var mySample = function(sports) {
-    var x = Math.floor(Math.random()*sports.length)
-    console.log('============')
-    console.log(sports[x])
+//==========================================
+var myForAll = function() {
+  console.log(sports)
 }
 
-mySample(sports)
+//==========================================
+var y
+
+var mySample = function(sports,y) {
+
+    for(var i = 0; i<y; i ++) {
+      var x = Math.floor(Math.random()*sports.length)
+      console.log('============')
+      console.log(sports[x])
+    }
+}
+
+mySample(sports,y)
+
+//==========================================
+
+var doThat = function(func) {
+  func()
+}

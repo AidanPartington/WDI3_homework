@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(92, 218, 223, 0.5);
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+#anagram {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 1em;
+}
+
+#list {
+  text-align: left;
+  margin-left: 47%;
+  margin-top: 5px;
+  padding: 0px;
+}
+
+#result {
+  text-align: center;
+  margin-top: 100px;
+}

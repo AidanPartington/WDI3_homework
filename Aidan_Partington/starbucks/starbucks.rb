@@ -31,24 +31,24 @@ class Coffee
       @size = size
       @name = name  
     
+      @collected
       @time = Time.now
 
-      puts c1ß
     end
 
-    def ready false
+    def ready
       if @time<Time.now+1
         true
       end 
     end
 
-    def collected
+    def collected=t
       @collected  = t
     end
 
 end
 
- # c1 = Coffee.new('latte',2,'medium','Darryl')
+c1 = Coffee.new('latte',2,'medium','Darryl')
 
 
 

@@ -1,0 +1,56 @@
+body {
+	background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSlYwliDdDMjSwQJzyqHUVOgXIJQ944cY3j7xP65NqkNHkZYeTd');
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	background-color: black;
+}
+
+#number-of-players{
+	background-color: grey;
+	display: inline;
+	color: white;
+}
+
+#start-button {
+	color: black;
+}
+
+#playing-table {
+	width: 50%;
+	margin: 220px auto 0px;
+}
+		#playing-table div {
+			/*text-align: center;*/
+			display: inline-block;
+			color: white;
+			margin-right: 5px;
+			border: solid grey;
+		}
+
+		.table-card {
+			margin: auto 0;		
+		}
+
+#all-players {
+	width: 50%;
+	margin: 50px auto 0px;
+	/*display: inline;*/
+}
+
+	#player {
+		color: blue;
+	}
+
+	#computer-player {
+		color: red;
+	}
+
+	.player-card {
+		width: 150px;
+		border: solid grey;
+	}
+
+	.computer-card {
+		width: 120px;
+		border: solid grey;
+	}

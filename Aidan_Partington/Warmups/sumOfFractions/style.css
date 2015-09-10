@@ -1,0 +1,15 @@
+#inputs {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#result {
+	text-align: center;
+	margin-top: 20px;
+	color: red;
+}
+
+body {
+	background-image: url("http://www.portmelb.vic.edu.au/wp-content/uploads/Mathletics-Logo-New.png");
+	background-size: cover;
+}

@@ -1,0 +1,20 @@
+
+
+<form id="search_form" action="">
+  <input id="search_box" name="movie_search" placeholder="search">
+</form>
+
+
+<% @title.each do |t| %>
+
+  <% @po = HTTParty.get("http://www.omdbapi.com/?i=#{t['imdbID']}") %>
+  
+  <div style="background-image: url(<%= @po["Poster"] %>)" id='<%= t["Title"] %>' class="search_div">
+      <a href="http://www.omdbapi.com/?t=<%= t["Title"] %>" >
+        <%= t["Title"] %><br/>
+      </a>
+      
+  </div>
+ 
+
+<% end %> 

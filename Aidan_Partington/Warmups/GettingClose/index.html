@@ -1,0 +1,40 @@
+<!-- https://ga-students.slack.com/files/mattswann/F097JCXEW/getting_closer.md -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	
+	<script>
+		//Added currentlocation
+		currentLocation = {lat: 100, long: -100}
+		
+		var myResults = [ 
+			{name: "six pack of beer", location: {lat: 37.767182, long: -122.5}},
+			{name: "whacky glasses", location: {lat: 37.767182, long: -122.51}},
+	  		{name: "whiskey bottle", location: {lat: 37.767282, long: -122.49}},
+	  		{name: "diving goggles", location: {lat: 37.770282, long: -122.503}},
+	  		{name: "running shoes", location: {lat: 37.7669, long: -122.457}},
+	  		{name: "paint brushes", location: {lat: 37.76800, long: -122.4580}}]
+
+		
+		myResults.forEach(function(coordinates) {
+	  		console.log(coordinates.name)
+	  		console.log("Coordinates: lat, long")
+	  		console.log(coordinates.location.lat)
+	  	    console.log(coordinates.location.long)
+
+	  	    console.log("Distance from current location: lat, long")
+	  	   	console.log(coordinates.location.lat - currentLocation.lat)
+	  	    console.log(coordinates.location.long - currentLocation.lat)
+	  		console.log("=========================")
+	  	})
+	  	
+
+     </script>
+
+</body>
+</html>

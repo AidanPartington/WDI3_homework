@@ -1,0 +1,28 @@
+
+body {
+  background-image: url("http://www.convertit.co.nz/assets/Uploads/_resampled/resizedimage600400-Film-Reel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding-left: 100px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+#search_input {
+  text-align: center;
+  padding-left: 100px; 
+  margin-top: 75px;
+}
+
+#details {
+  background-color: rgba(100,0,0,0.5);
+  max-width: 305px;
+  color: white;
+}
+#movie_image {
+  border-radius: 5px;
+  border: grey solid;
+}

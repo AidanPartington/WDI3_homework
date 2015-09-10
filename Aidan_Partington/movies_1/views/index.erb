@@ -1,0 +1,19 @@
+<h1>Motion Pictures</h1>
+
+<form id="search_input" action="/">
+
+  <!-- <label for="">Movie</label> -->
+  <input type="text" name="movie_name" placeholder="Choose a movie">
+  <button>search</button>
+
+</form>
+
+<div id="details">
+  
+  <h2><%= @movie_title %></h2>
+  <p><%= @movie_genre %></p>
+  <p><%= @movie_plot %></p>
+
+</div>
+
+<img id="movie_image" src="<%= @movie_img %>">
